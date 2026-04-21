@@ -6,17 +6,8 @@ venv/
 *.task
 *.tflite
 
-uploads/
-outputs/
-frontend/node_modules/
-frontend/dist/
-
 input.jpg
 template.jpg
 debug_*.jpg
 final_*.jpg
 *.png
-*.jpg
-!templates/*.jpg
-!templates/*.png
-!templates/*.jpeg

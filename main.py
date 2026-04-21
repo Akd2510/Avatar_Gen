@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
+from segmenter import HeadSegmenter
 
 from blender import HeadBlender
 from detector import FaceDetector
-from segmenter import HeadSegmenter
 from transform import HeadTransformer
 
 
