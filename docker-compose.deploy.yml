@@ -1,14 +1,12 @@
-version: '3.8'
-
 services:
   backend:
     image: akshatdikshit/ipl-backend:latest
     ports:
       - "8000:8000"
+    # We only map uploads/outputs so your files are saved locally
     volumes:
       - ./uploads:/app/uploads
       - ./outputs:/app/outputs
-      - ./templates:/app/templates
     restart: always
 
   frontend:
